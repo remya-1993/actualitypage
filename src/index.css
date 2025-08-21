@@ -185,7 +185,7 @@ body {
 }
 
 .teleradiology-section {
-  background-image: url("./dummy-images/teleradiology_background.png");
+  background-image: url("../dummy-images/teleradiology_background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -252,7 +252,7 @@ body {
   background-color: #2d5946;
   min-height: 300px;
   display: block;
-  background-image: url("./dummy-images/ai-generated-7986803_1280.jpg");
+  background-image: url("../dummy-images/ai-generated-7986803_1280.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
