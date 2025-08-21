@@ -226,7 +226,7 @@ body {
   background-color: #1d6763;
   min-height: 300px;
   display: block;
-  background-image: url("./home/teleradio.jpeg");
+  background-image: url("../home/teleradio.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
