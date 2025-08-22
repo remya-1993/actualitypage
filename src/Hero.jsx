@@ -117,7 +117,7 @@ function Hero() {
             <img
               style={{ height: "90vh" }}
               className="d-block w-100"
-              src="./home/collage.png"
+              src="./home/collage1.png"
               alt="Third slide"
             />
 
