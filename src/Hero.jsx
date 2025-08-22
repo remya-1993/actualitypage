@@ -10,6 +10,7 @@ import Row from "react-bootstrap/Row";
 
 import Modal from "react-bootstrap/Modal";
 
+
 function Hero() {
   const [check, setCheck] = useState(false);
   const [name, setName] = useState("Show Content");
@@ -66,22 +67,10 @@ function Hero() {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3>MRI Scan</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>Radiology Elevated: Unwavering Commitment to Quality</h3>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100 object-fit-cover"
-              src="./home/teleradio.jpeg"
-              alt="Second slide"
-            />
 
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
           <Carousel.Item>
             <img
               style={{ height: "90vh" }}
@@ -91,25 +80,10 @@ function Hero() {
             />
 
             <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              style={{ height: "90vh" }}
-              className="d-block w-100"
-              src="./home/tech-enabled.png"
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+              <h3>
+                {" "}
+                Clinically Connected Radiology: Where Insight Meets Dialogue
+              </h3>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -120,12 +94,34 @@ function Hero() {
               src="./home/collage1.png"
               alt="Third slide"
             />
+            <Carousel.Caption>
+              <h3>
+                Subspecialty-Driven Radiology: Precision Unfolded by Expertise
+              </h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              style={{ height: "90vh" }}
+              className="d-block w-100"
+              src="./home/tech-enabled.png"
+              alt="Third slide"
+            />
 
             <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+              <h3>Tech-Enabled Radiology: Innovation That Informs</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="d-block w-100 object-fit-cover"
+              src="./home/24.jpeg"
+              alt="Second slide"
+            />
+            <Carousel.Caption>
+              <h3>Flexible Time Slots, Focused on Your Needs</h3>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
@@ -554,26 +550,29 @@ function Hero() {
                   full-spectrum day and night reporting, our services flex to
                   fit your workflow, no matter how dynamic your patient volumes.
                 </p>
-                <h3 className="font-18 fw-semibold">Here’s What You Can Rely On:</h3>
+                <h3 className="font-18 fw-semibold">
+                  Here’s What You Can Rely On:
+                </h3>
                 <ul className="ps-3 font-14 list-style-square">
                   <li>
-                    🕒 Customizable Reporting Windows that align with your institutional needs{" "}
+                    🕒 Customizable Reporting Windows that align with your
+                    institutional needs{" "}
                   </li>{" "}
                   <li>
                     🚨 Priority Reads for emergency and time-critical studies{" "}
                   </li>{" "}
                   <li>
-                    🩺 Meticulous Reviews for elective imaging with depth and precision{" "}
+                    🩺 Meticulous Reviews for elective imaging with depth and
+                    precision{" "}
                   </li>{" "}
                   <li>
-                    🤝 Integrated Support Coordination for faster triage and turnaround
+                    🤝 Integrated Support Coordination for faster triage and
+                    turnaround
                   </li>
                   <li>
                     📡 On-Demand Availability—we’re just a click away, anytime
                   </li>
                 </ul>
-               
-               
               </div>
             </div>
           </div>

@@ -47,10 +47,13 @@ body {
 .primary-bg {
   background-color: #256d6c !important;
 }
-
-/* .dark-green-color {
-  color: #2e5946 !important;
-} */
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; /* Circular indicators */
+  background-color: #000; /* Dot color */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
 
 .text-custom-red {
   color: #e44545;
