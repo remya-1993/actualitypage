@@ -10,7 +10,6 @@ import Row from "react-bootstrap/Row";
 
 import Modal from "react-bootstrap/Modal";
 
-
 function Hero() {
   const [check, setCheck] = useState(false);
   const [name, setName] = useState("Show Content");
@@ -58,10 +57,11 @@ function Hero() {
 
   return (
     <div>
-      <div className="custom-carousel mt-5">
+      <div className="custom-carousel mt-5 ">
         <Carousel>
           <Carousel.Item>
             <img
+              style={{ height: "90vh" }}
               className="d-block w-100 object-fit-cover"
               src="./home/clinic.jpeg"
               alt="First slide"
@@ -74,11 +74,10 @@ function Hero() {
           <Carousel.Item>
             <img
               style={{ height: "90vh" }}
-              className="d-block w-100"
+              className="d-block w-100 object-fit-cover"
               src="./home/clinic_connect.png"
               alt="Third slide"
             />
-
             <Carousel.Caption>
               <h3>
                 {" "}
@@ -90,7 +89,7 @@ function Hero() {
           <Carousel.Item>
             <img
               style={{ height: "90vh" }}
-              className="d-block w-100"
+              className="d-block w-100 object-fit-cover"
               src="./home/collage1.png"
               alt="Third slide"
             />
@@ -104,7 +103,7 @@ function Hero() {
           <Carousel.Item>
             <img
               style={{ height: "90vh" }}
-              className="d-block w-100"
+              className="d-block w-100 object-fit-cover"
               src="./home/tech-enabled.png"
               alt="Third slide"
             />
@@ -116,6 +115,7 @@ function Hero() {
 
           <Carousel.Item>
             <img
+              style={{ height: "90vh" }}
               className="d-block w-100 object-fit-cover"
               src="./home/24.jpeg"
               alt="Second slide"
@@ -124,6 +124,7 @@ function Hero() {
               <h3>Flexible Time Slots, Focused on Your Needs</h3>
             </Carousel.Caption>
           </Carousel.Item>
+       
         </Carousel>
 
         <div className="py-5">
